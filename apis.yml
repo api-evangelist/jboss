@@ -1,118 +1,63 @@
-name: JBoss APIs
-description: A collection of APIs and resources for JBoss application server and related Red Hat middleware technologies
-image: https://www.jboss.org/images/jboss_logo.png
-url: https://www.jboss.org
-created: '2024-01-15'
-modified: '2024-01-15'
-apis:
-- name: JBoss EAP Management API
-  description: RESTful management API for JBoss Enterprise Application Platform (EAP) administration and monitoring
-  image: https://www.jboss.org/images/jboss_eap_logo.png
-  humanURL: https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform
-  baseURL: http://localhost:9990/management
-  tags:
-  - application server
-  - management
-  - middleware
-  - enterprise
-  properties:
-  - type: X-documentation
-    url: https://docs.jboss.org/author/display/WFLY/Management+API+reference
-  - type: X-openapi
-    url: https://raw.githubusercontent.com/wildfly/wildfly/main/docs/src/main/asciidoc/_admin-guide/management-api/OpenAPI.yaml
-  - type: X-authentication
-    url: https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.4/html/configuration_guide/management_api_reference
-- name: WildFly REST API
-  description: RESTful interface for WildFly (community version of JBoss EAP) server management
-  image: https://wildfly.org/assets/img/wildfly_logo.png
-  humanURL: https://wildfly.org
-  baseURL: http://localhost:9990/management
-  tags:
-  - wildfly
-  - open source
-  - application server
-  - management
-  properties:
-  - type: X-documentation
-    url: https://docs.wildfly.org/
-  - type: X-github
-    url: https://github.com/wildfly/wildfly
-  - type: X-swagger
-    url: https://docs.wildfly.org/management-api/
-- name: JBoss Data Grid REST API
-  description: REST API for distributed caching with JBoss Data Grid (Red Hat Data Grid)
-  image: https://www.jboss.org/images/jboss_datagrid_logo.png
-  humanURL: https://access.redhat.com/products/red-hat-data-grid
-  baseURL: http://localhost:11222/rest/v2
-  tags:
-  - cache
-  - data grid
-  - distributed systems
-  - in-memory
-  properties:
-  - type: X-documentation
-    url: https://access.redhat.com/documentation/en-us/red_hat_data_grid/8.4/html/data_grid_rest_api
-  - type: X-openapi
-    url: https://infinispan.org/docs/stable/titles/rest/rest.html
-- name: Keycloak Admin REST API
-  description: Administration REST API for Keycloak identity and access management (JBoss SSO)
-  image: https://www.keycloak.org/resources/images/keycloak_logo.png
-  humanURL: https://www.keycloak.org
-  baseURL: http://localhost:8080/admin/realms
-  tags:
-  - authentication
-  - authorization
-  - identity management
-  - SSO
-  - OAuth2
-  - OpenID Connect
-  properties:
-  - type: X-documentation
-    url: https://www.keycloak.org/docs/latest/server_development/#admin-rest-api
-  - type: X-openapi
-    url: https://www.keycloak.org/docs-api/latest/rest-api/openapi.json
-  - type: X-github
-    url: https://github.com/keycloak/keycloak
-- name: JBoss Fuse REST DSL
-  description: REST DSL for Apache Camel integration in JBoss Fuse
-  image: https://www.jboss.org/images/jboss_fuse_logo.png
-  humanURL: https://access.redhat.com/products/red-hat-fuse
-  baseURL: http://localhost:8080/camel/rest
-  tags:
-  - integration
-  - ESB
-  - camel
-  - microservices
-  properties:
-  - type: X-documentation
-    url: https://access.redhat.com/documentation/en-us/red_hat_fuse/7.11/html/apache_camel_development_guide/basicprinciples-restdsl
-  - type: X-swagger
-    url: https://camel.apache.org/components/latest/rest-api-component.html
-maintainers:
-- name: Red Hat, Inc.
-  email: jboss-community@redhat.com
-  url: https://www.redhat.com
-- name: JBoss Community
-  email: community@jboss.org
-  url: https://www.jboss.org
+aid: jboss
+name: JBoss
+description: >-
+  JBoss is a division of Red Hat providing open source middleware and
+  application server technologies. JBoss products include JBoss EAP (Enterprise
+  Application Platform), WildFly application server, JBoss Data Grid, Keycloak
+  identity management, and JBoss Fuse integration platform.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- application server
-- middleware
-- enterprise
-- Java EE
-- Jakarta EE
-- microservices
-- cloud native
-- Red Hat
-include: []
+  - Application Server
+  - Middleware
+  - Enterprise
+  - Java EE
+  - Red Hat
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/apis.yml
+created: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: jboss:jboss-eap-management-api
+    name: JBoss EAP Management API
+    description: >-
+      RESTful management API for JBoss Enterprise Application Platform (EAP)
+      administration and monitoring.
+    humanURL: https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform
+    tags:
+      - Application Server
+      - Management
+      - Middleware
+    properties:
+      - type: Documentation
+        url: https://docs.jboss.org/author/display/WFLY/Management+API+reference
+  - aid: jboss:wildfly-rest-api
+    name: WildFly REST API
+    description: >-
+      RESTful interface for WildFly (community version of JBoss EAP) server
+      management.
+    humanURL: https://wildfly.org
+    tags:
+      - WildFly
+      - Application Server
+      - Management
+    properties:
+      - type: Documentation
+        url: https://docs.wildfly.org/
+      - type: GitHub Organization
+        url: https://github.com/wildfly/wildfly
 common:
-- type: X-portal
-  url: https://developers.redhat.com/products/eap/overview
-- type: X-getting-started
-  url: https://www.jboss.org/get-started/
-- type: X-blog
-  url: https://www.jboss.org/posts/
-- type: X-github-org
-  url: https://github.com/jbossas
-- type: X-support
-  url: https://access.redhat.com/support/
+  - type: Portal
+    url: https://developers.redhat.com/products/eap/overview
+  - type: Getting Started
+    url: https://www.jboss.org/get-started/
+  - type: Blog
+    url: https://www.jboss.org/posts/
+  - type: GitHub Organization
+    url: https://github.com/jbossas
+  - type: Support
+    url: https://access.redhat.com/support/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
