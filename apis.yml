@@ -9,9 +9,9 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Application Server
-  - Middleware
   - Enterprise
   - Java EE
+  - Middleware
   - Red Hat
 url: >-
   https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/apis.yml
@@ -39,9 +39,9 @@ apis:
       management.
     humanURL: https://wildfly.org
     tags:
-      - WildFly
       - Application Server
       - Management
+      - WildFly
     properties:
       - type: Documentation
         url: https://docs.wildfly.org/
