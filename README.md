@@ -1,110 +1,69 @@
-# JBoss APIs (jboss)
-A collection of APIs and resources for JBoss application server and related Red Hat middleware technologies
+# JBoss (jboss)
 
-**URL:** [Visit APIs.json URL](https://www.jboss.org)
+JBoss is a division of Red Hat providing open source middleware and application server technologies for enterprise Java workloads. The portfolio includes JBoss EAP, the WildFly community application server, JBoss Data Grid (Red Hat Data Grid), Keycloak, and JBoss Fuse.
 
-## Tags:
+**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/apis.yml)
 
- - application server, middleware, enterprise, Java EE, Jakarta EE, microservices, cloud native, Red Hat
+## Scope
+
+- **Type:** Index
+- **Tags:** Application Server, Cloud Native, Enterprise, Jakarta EE, Java EE, Microservices, Middleware, Open Source, Red Hat
 
 ## Timestamps
 
-- **Created:** 2024-01-15 
-- **Modified:** 2024-01-15 
+- **Created:** 2024-01-15
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### JBoss EAP Management API
-RESTful management API for JBoss Enterprise Application Platform (EAP) administration and monitoring
 
-**Human URL:** [https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform)
+RESTful management API for JBoss Enterprise Application Platform (EAP) administration and monitoring.
 
-
-#### Tags:
-
- - application server, management, middleware, enterprise
-
-#### Properties
-
-- [X-documentation](https://docs.jboss.org/author/display/WFLY/Management+API+reference)
-- [X-openapi](https://raw.githubusercontent.com/wildfly/wildfly/main/docs/src/main/asciidoc/_admin-guide/management-api/OpenAPI.yaml)
-- [X-authentication](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.4/html/configuration_guide/management_api_reference)
+- [Documentation](https://docs.jboss.org/author/display/WFLY/Management+API+reference)
+- [OpenAPI](https://raw.githubusercontent.com/wildfly/wildfly/main/docs/src/main/asciidoc/_admin-guide/management-api/OpenAPI.yaml)
+- [Authentication](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.4/html/configuration_guide/management_api_reference)
 
 ### WildFly REST API
-RESTful interface for WildFly (community version of JBoss EAP) server management
 
-**Human URL:** [https://wildfly.org](https://wildfly.org)
+RESTful interface for WildFly (community version of JBoss EAP) server management.
 
-
-#### Tags:
-
- - wildfly, open source, application server, management
-
-#### Properties
-
-- [X-documentation](https://docs.wildfly.org/)
-- [X-github](https://github.com/wildfly/wildfly)
-- [X-swagger](https://docs.wildfly.org/management-api/)
+- [Documentation](https://docs.wildfly.org/)
+- [GitHub](https://github.com/wildfly/wildfly)
+- [Reference](https://docs.wildfly.org/management-api/)
 
 ### JBoss Data Grid REST API
-REST API for distributed caching with JBoss Data Grid (Red Hat Data Grid)
 
-**Human URL:** [https://access.redhat.com/products/red-hat-data-grid](https://access.redhat.com/products/red-hat-data-grid)
+REST API for distributed in-memory caching with JBoss Data Grid (Red Hat Data Grid), built on Infinispan.
 
-
-#### Tags:
-
- - cache, data grid, distributed systems, in-memory
-
-#### Properties
-
-- [X-documentation](https://access.redhat.com/documentation/en-us/red_hat_data_grid/8.4/html/data_grid_rest_api)
-- [X-openapi](https://infinispan.org/docs/stable/titles/rest/rest.html)
+- [Documentation](https://access.redhat.com/documentation/en-us/red_hat_data_grid/8.4/html/data_grid_rest_api)
+- [Reference](https://infinispan.org/docs/stable/titles/rest/rest.html)
 
 ### Keycloak Admin REST API
-Administration REST API for Keycloak identity and access management (JBoss SSO)
 
-**Human URL:** [https://www.keycloak.org](https://www.keycloak.org)
+Administration REST API for Keycloak identity and access management (JBoss SSO).
 
-
-#### Tags:
-
- - authentication, authorization, identity management, SSO, OAuth2, OpenID Connect
-
-#### Properties
-
-- [X-documentation](https://www.keycloak.org/docs/latest/server_development/#admin-rest-api)
-- [X-openapi](https://www.keycloak.org/docs-api/latest/rest-api/openapi.json)
-- [X-github](https://github.com/keycloak/keycloak)
+- [Documentation](https://www.keycloak.org/docs/latest/server_development/#admin-rest-api)
+- [OpenAPI](https://www.keycloak.org/docs-api/latest/rest-api/openapi.json)
+- [GitHub](https://github.com/keycloak/keycloak)
 
 ### JBoss Fuse REST DSL
-REST DSL for Apache Camel integration in JBoss Fuse
 
-**Human URL:** [https://access.redhat.com/products/red-hat-fuse](https://access.redhat.com/products/red-hat-fuse)
+REST DSL for Apache Camel integration in JBoss Fuse.
 
-
-#### Tags:
-
- - integration, ESB, camel, microservices
-
-#### Properties
-
-- [X-documentation](https://access.redhat.com/documentation/en-us/red_hat_fuse/7.11/html/apache_camel_development_guide/basicprinciples-restdsl)
-- [X-swagger](https://camel.apache.org/components/latest/rest-api-component.html)
+- [Documentation](https://access.redhat.com/documentation/en-us/red_hat_fuse/7.11/html/apache_camel_development_guide/basicprinciples-restdsl)
+- [Reference](https://camel.apache.org/components/latest/rest-api-component.html)
 
 ## Common Properties
 
-- [X-portal](https://developers.redhat.com/products/eap/overview)
-- [X-getting-started](https://www.jboss.org/get-started/)
-- [X-blog](https://www.jboss.org/posts/)
-- [X-github-org](https://github.com/jbossas)
-- [X-support](https://access.redhat.com/support/)
+- [Portal](https://developers.redhat.com/products/eap/overview)
+- [Getting Started](https://www.jboss.org/get-started/)
+- [Blog](https://www.jboss.org/posts/)
+- [GitHub Organization](https://github.com/jbossas)
+- [Support](https://access.redhat.com/support/)
 
 ## Maintainers
 
-**FN:** Red Hat, Inc.
+**FN:** Kin Lane
 
-**Email:** jboss-community@redhat.com
-**FN:** JBoss Community
-
-**Email:** community@jboss.org
+**Email:** kin@apievangelist.com
