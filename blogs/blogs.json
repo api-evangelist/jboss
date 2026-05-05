@@ -1,0 +1,13 @@
+{
+  "repo": "jboss",
+  "feeds": [
+    {
+      "source": "https://www.jboss.org/posts/",
+      "feed_url": "https://www.jboss.org/atom.xml",
+      "saved": 10,
+      "title": "JBoss Blogs"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:30:18Z"
+}
