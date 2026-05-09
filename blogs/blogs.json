@@ -4,10 +4,10 @@
     {
       "source": "https://www.jboss.org/posts/",
       "feed_url": "https://www.jboss.org/atom.xml",
-      "saved": 10,
-      "title": "JBoss Blogs"
+      "title": "JBoss Blogs",
+      "saved": 0
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-03T23:30:18Z"
+  "fetched": "2026-05-09T20:17:51Z"
 }
