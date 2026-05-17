@@ -118,11 +118,11 @@ apis:
 common:
   - type: Portal
     url: https://developers.redhat.com/products/eap/overview
-  - type: Getting Started
+  - type: GettingStarted
     url: https://www.jboss.org/get-started/
   - type: Blog
     url: https://www.jboss.org/posts/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/jbossas
   - type: Support
     url: https://access.redhat.com/support/
