@@ -2,11 +2,8 @@
   "repo": "jboss",
   "feeds": [
     {
-      "source": "https://www.jboss.org/atom.xml",
-      "feed_url": "https://www.jboss.org/atom.xml",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
+      "source": "https://www.jboss.org/posts/",
+      "error": "HTTPError"
     },
     {
       "source": "https://www.jboss.org/get-started/",
@@ -14,5 +11,5 @@
     }
   ],
   "post_count": 54,
-  "fetched": "2026-06-01T23:35:02Z"
+  "fetched": "2026-06-14T20:42:17Z"
 }
