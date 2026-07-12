@@ -116,6 +116,10 @@ apis:
       - type: Reference
         url: https://camel.apache.org/components/latest/rest-api-component.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/jboss-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/jboss-domain-security.yml
   - type: Portal
     url: https://developers.redhat.com/products/eap/overview
   - type: GettingStarted
