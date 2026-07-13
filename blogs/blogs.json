@@ -2,11 +2,10 @@
   "repo": "jboss",
   "feeds": [
     {
-      "source": "https://www.jboss.org/posts/",
-      "saved": 0,
-      "error": "HTTP 403 Forbidden"
+      "source": "https://www.jboss.org/get-started/",
+      "error": "HTTPError"
     }
   ],
   "post_count": 54,
-  "fetched": "2026-06-27T12:48:48Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }
