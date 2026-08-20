@@ -25,6 +25,16 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jboss.png
 tags:
   - Application Server
+  - Cloud-Native
+  - Enterprise
+  - Jakarta EE
+  - Java EE
+  - Microservices
+  - Middleware
+  - Open-Source
+  - Red Hat
+tags_raw:
+  - Application Server
   - Cloud Native
   - Enterprise
   - Jakarta EE
@@ -97,6 +107,12 @@ apis:
       supporting OAuth2, OpenID Connect, and SAML for SSO scenarios.
     humanURL: https://www.keycloak.org
     tags:
+      - Authentication
+      - Authorization
+      - Identity Management
+      - OpenID Connect
+      - SSO
+    tags_raw:
       - Authentication
       - Authorization
       - Identity Management
