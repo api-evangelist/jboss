@@ -62,7 +62,7 @@ tags_raw:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/apis.yml
 created: '2024-01-15'
-modified: '2026-04-28'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: jboss:jboss-eap-management-api
@@ -160,6 +160,10 @@ apis:
       - type: Reference
         url: https://camel.apache.org/components/latest/rest-api-component.html
 common:
+  - url: https://www.redhat.com/en/blog
+    type: Blog
+  - url: https://www.redhat.com/en/rss/blog
+    type: BlogRSS
   - type: VulnerabilityDisclosure
     url: security/jboss-vulnerability-disclosure.yml
   - type: DomainSecurity
