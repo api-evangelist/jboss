@@ -125,7 +125,7 @@ apis:
     tags:
       - Authentication
       - Authorization
-      - Identity Management
+      - Identity and Access Management
       - OpenID Connect
       - SSO
     tags_raw:
