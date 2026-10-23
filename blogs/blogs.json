@@ -5,7 +5,7 @@
       "source": "https://www.redhat.com/en/blog",
       "feed_url": "https://www.redhat.com/en/blog/rss.xml",
       "title": "",
-      "saved": 9,
+      "saved": 0,
       "method": "discovered"
     },
     {
@@ -18,10 +18,17 @@
     {
       "source": "https://www.jboss.org/posts/",
       "error": "HTTPError"
+    },
+    {
+      "source": "https://www.redhat.com/en/blog/rss.xml",
+      "feed_url": "https://www.redhat.com/en/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "post_count": 63,
-  "fetched": "2026-10-10T13:15:00Z",
+  "post_count": 73,
+  "fetched": "2026-10-17T14:53:57Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
