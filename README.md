@@ -1,4 +1,4 @@
-# JBoss (jboss)
+# JBoss
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,70 +64,74 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-JBoss is a division of Red Hat providing open source middleware and application server technologies for enterprise Java workloads. The portfolio includes JBoss EAP, the WildFly community application server, JBoss Data Grid (Red Hat Data Grid), Keycloak, and JBoss Fuse.
+JBoss is a division of Red Hat providing open source middleware and application server technologies for enterprise Java workloads. The JBoss product portfolio includes JBoss EAP (Enterprise Application Platform), the WildFly community application server, JBoss Data Grid (Red Hat Data Grid), Keycloak identity and access management, and JBoss Fuse integration platform built on Apache Camel. These projects power Jakarta EE deployments, single sign-on, distributed caching, and microservices integration in enterprise environments.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/apis.yml)
+**Areas:** Application Server · Cloud-Native · Enterprise · Jakarta EE · Java EE · Microservices · Middleware · Open Source · Red Hat
 
-## Scope
+## JBoss on APIs.io
 
-- **Type:** Index
-- **Tags:** Application Server, Cloud Native, Enterprise, Jakarta EE, Java EE, Microservices, Middleware, Open Source, Red Hat
+Everything profiled for JBoss is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jboss/](https://apis.io/providers/jboss/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (5)
 
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-28
+- [JBoss EAP Management API](https://apis.io/apis/jboss/jboss-eap-management-api/) — RESTful management API for JBoss Enterprise Application Platform (EAP) administration and monitoring of server configuration, deployments, and runtime state.
+- [WildFly REST API](https://apis.io/apis/jboss/wildfly-rest-api/) — RESTful interface for WildFly (the community version of JBoss EAP) server management, deployments, and runtime configuration.
+- [JBoss Data Grid REST API](https://apis.io/apis/jboss/jboss-data-grid-rest-api/) — REST API for distributed in-memory caching with JBoss Data Grid (Red Hat Data Grid), based on the Infinispan project.
+- [Keycloak Admin REST API](https://apis.io/apis/jboss/keycloak-admin-rest-api/) — Administration REST API for Keycloak identity and access management, supporting OAuth2, OpenID Connect, and SAML for SSO scenarios.
+- [JBoss Fuse REST DSL](https://apis.io/apis/jboss/jboss-fuse-rest-dsl/) — REST DSL for Apache Camel integration in JBoss Fuse, enabling definition of REST endpoints and routes for enterprise integration patterns.
 
-## APIs
+### Published properties
 
-### JBoss EAP Management API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-RESTful management API for JBoss Enterprise Application Platform (EAP) administration and monitoring.
+#### Security (2)
 
-- [Documentation](https://docs.jboss.org/author/display/WFLY/Management+API+reference)
-- [OpenAPI](https://raw.githubusercontent.com/wildfly/wildfly/main/docs/src/main/asciidoc/_admin-guide/management-api/OpenAPI.yaml)
-- [Authentication](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.4/html/configuration_guide/management_api_reference)
+Authentication, trust centre, and vulnerability disclosure.
 
-### WildFly REST API
+- [Jboss Domain Security](https://apis.io/security/jboss/jboss-domain-security/)
+- [Jboss Vulnerability Disclosure](https://apis.io/security/jboss/jboss-vulnerability-disclosure/)
 
-RESTful interface for WildFly (community version of JBoss EAP) server management.
+#### Plans and pricing (1)
 
-- [Documentation](https://docs.wildfly.org/)
-- [GitHub](https://github.com/wildfly/wildfly)
-- [Reference](https://docs.wildfly.org/management-api/)
+Published plans, tiers and prices.
 
-### JBoss Data Grid REST API
+- [Jboss Plans Pricing](https://apis.io/plans/jboss/jboss-plans-pricing/)
 
-REST API for distributed in-memory caching with JBoss Data Grid (Red Hat Data Grid), built on Infinispan.
+#### Rate limits (1)
 
-- [Documentation](https://access.redhat.com/documentation/en-us/red_hat_data_grid/8.4/html/data_grid_rest_api)
-- [Reference](https://infinispan.org/docs/stable/titles/rest/rest.html)
+Published request limits.
 
-### Keycloak Admin REST API
+- [Jboss Rate Limits](https://apis.io/rate-limits/jboss/jboss-rate-limits/)
 
-Administration REST API for Keycloak identity and access management (JBoss SSO).
+#### FinOps (1)
 
-- [Documentation](https://www.keycloak.org/docs/latest/server_development/#admin-rest-api)
-- [OpenAPI](https://www.keycloak.org/docs-api/latest/rest-api/openapi.json)
-- [GitHub](https://github.com/keycloak/keycloak)
+What the API costs to run, by operation.
 
-### JBoss Fuse REST DSL
+- [Jboss Finops](https://apis.io/finops/jboss/jboss-finops/)
 
-REST DSL for Apache Camel integration in JBoss Fuse.
+## Where to find this API
 
-- [Documentation](https://access.redhat.com/documentation/en-us/red_hat_fuse/7.11/html/apache_camel_development_guide/basicprinciples-restdsl)
-- [Reference](https://camel.apache.org/components/latest/rest-api-component.html)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
-
-- [Portal](https://developers.redhat.com/products/eap/overview)
-- [Getting Started](https://www.jboss.org/get-started/)
-- [Blog](https://www.jboss.org/posts/)
-- [GitHub Organization](https://github.com/jbossas)
+- [Getting started](https://www.jboss.org/get-started/)
 - [Support](https://access.redhat.com/support/)
+- [Blog](https://www.redhat.com/en/blog)
+- [GitHub](https://github.com/jbossas)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-**Email:** kin@apievangelist.com
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for JBoss: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jboss/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
